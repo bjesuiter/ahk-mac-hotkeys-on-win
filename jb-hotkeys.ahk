@@ -21,8 +21,9 @@ XButton2:: Send #{Tab}
 ; Mark All
 !a:: Send ^a
 
-; Type @ with Alt+l
-!l:: Send {RAlt}q
+; Type @ with Strg+l 
+; (when using the right Strg it's like Alt on mac)
+^l:: Send {RAlt Down}{RControl Down} q {RAlt Up}{RControl Up}
 
 ; Send Alt+F4 when pressing Alt + Q
 !q:: Send !{F4}
