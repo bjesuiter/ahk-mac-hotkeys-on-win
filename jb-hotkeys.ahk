@@ -20,6 +20,15 @@ XButton2:: Send #{Tab}
 !s:: Send ^s
 ; Mark All
 !a:: Send ^a
+; New Tab & Tab Rückgängig
+!t:: Send ^t
+!+t:: Send ^+t
+; Rückgängig
+!z:: Send ^z
+; Browser refresh
+!r:: Send ^r
+; Browser DevTools
+!+i:: Send ^+I
 
 ; Type @ with Strg+l 
 ; (when using the right Strg it's like Alt on mac)
