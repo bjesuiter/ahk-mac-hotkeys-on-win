@@ -2,6 +2,11 @@
 SendMode Input
 SetWorkingDir, %A_ScriptDir%
 
+; WIN Taste: #
+; ALT Taste: !
+; STRG Taste: ^
+; UMSCHALT Taste explizit: +
+
 ; Hotkey modifiers: https://www.autohotkey.com/docs/Hotkeys.htm#Symbols
 ; Complete Key List: https://www.autohotkey.com/docs/KeyList.htm
 ; Send Keys: https://www.autohotkey.com/docs/commands/Send.htm
@@ -23,18 +28,21 @@ XButton2:: Send #{Tab}
 ; New Tab & Tab Rückgängig
 !t:: Send ^t
 !+t:: Send ^+t
+; Suchen mit F und Globale Suche mit Umschalt F
+!f:: Send ^f
+!+f:: Send ^+f
 ; Rückgängig
 !z:: Send ^z
 ; Browser refresh
 !r:: Send ^r
 ; Browser DevTools
-!+i:: Send ^+I
+#+i:: Send ^+I
 
 ; Type @ with Strg+l 
 ; (when using the right Strg it's like Alt on mac)
 ^l:: Send {RAlt Down}{RControl Down} q {RAlt Up}{RControl Up}
 
-; Send Alt+F4 when pressing Alt + Q
+; Send Alt+F4 when pressing CMD + Q
 !q:: Send !{F4}
 
 ; Programming Shortcuts
