@@ -6,6 +6,8 @@ SetWorkingDir, %A_ScriptDir%
 ; ALT Taste: !
 ; STRG Taste: ^
 ; UMSCHALT Taste explizit: +
+; Code for detecting AltGr: <^>!DeL:: (Explanation: left or right STRG + ALT Key)
+; Code for sending AltGr: ^!{<} (with any key between these braces)
 
 ; Hotkey modifiers: https://www.autohotkey.com/docs/Hotkeys.htm#Symbols
 ; Complete Key List: https://www.autohotkey.com/docs/KeyList.htm
@@ -40,10 +42,10 @@ XButton2:: Send #{Tab}
 
 ; Type @ with Strg+l 
 ; (when using the right Strg it's like Alt on mac)
-^l:: Send {RAlt Down}{RControl Down} q {RAlt Up}{RControl Up}
+^l:: Send ^!{q}
 
 ; Send Alt+F4 when pressing CMD + Q
-!q:: Send !{F4}
+<!q:: Send !{F4}
 
 ; Programming Shortcuts
 ; Type []
@@ -55,3 +57,4 @@ XButton2:: Send #{Tab}
 ; Type {} 
 ^8:: Send ^!7
 ^9:: Send ^!0
+
