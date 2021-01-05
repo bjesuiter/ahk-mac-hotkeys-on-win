@@ -58,3 +58,8 @@ XButton2:: Send #{Tab}
 ^8:: Send ^!7
 ^9:: Send ^!0
 
+; Type backslash (\) like on mac (ALT+UMSCHALT+7) (on Windows: WIN+UMSCHALT+7)
+; #+7:: Send {RAlt Down}{RControl Down} ß {RAlt Up}{RControl Up}
+#+7:: Send ^!{ß}
+; Note: Does not work, but deactivates quick opening for taskbar items, which is good for me. 
+
