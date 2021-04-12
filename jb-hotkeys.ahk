@@ -1,3 +1,6 @@
+; Author: Benjamin Jesuiter <bjesuiter@gmail.com> 
+; Version: 1.3 - 2021-04-12 
+
 #SingleInstance, Force
 SendMode Input
 SetWorkingDir, %A_ScriptDir%

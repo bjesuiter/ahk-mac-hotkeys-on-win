@@ -11,3 +11,11 @@
 
 AHK 1.1 Documentation:
 <https://www.autohotkey.com/docs/AutoHotkey.htm>
+
+---
+
+# Changelog 
+
+## v1.3 - 2021-04-12 
+
+First version published on github
