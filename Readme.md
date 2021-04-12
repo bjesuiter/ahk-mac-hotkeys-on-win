@@ -5,7 +5,7 @@
 - Get the portable installer for AHK Zip Files from here:
   <https://github.com/TheArkive/ahk-pi>
 - Get AHK Zip Files from here:
-  <https://github.com/TheArkive/ahk-pi>
+  <https://www.autohotkey.com/download/>
 
 ## References
 
