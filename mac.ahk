@@ -1,4 +1,5 @@
-; This script assumes that Alt and Ctrl characters have been swapped using a third-party tool
+; Source of this Script: https://github.com/stevenilsen123/mac-keyboard-behavior-in-windows/blob/main/mac.ahk
+; This script assumes that Alt and Ctrl characters have been swapped using a third-party tool (for Example: Windows PowerToys)
 
 ; -----KEY GUIDE-----
 ; # Win. (the key with the Windows logo) therefore `Send #e` would hold down Win and then press E.
