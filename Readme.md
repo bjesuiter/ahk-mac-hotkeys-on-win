@@ -27,7 +27,11 @@
   "ahk++.file.helpPathV1": "C:\\Users\\xcg5545\\.cmder\\opt\\.autohotkey-manual\\AutoHotkey_1.1.37.01\\AutoHotkey.chm",
   "ahk++.file.compilerPath": "C:\\Users\\xcg5545\\.cmder\\opt\\.autohotkey-manual\\Ahk2Exe1.1.37.00a\\Ahk2Exe.exe"
   ```
--
+
+## How to make new versions of this key mapper 
+
+1. Open the .ahk file 
+2. Use the VSCode Command menu to compile it
 
 ## References
 
