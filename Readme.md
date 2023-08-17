@@ -1,6 +1,6 @@
 # AHK (AutoHotKey) Scripts to emulate Mac Keybindings on Windows
 
-## Prerequisites
+## Prerequisites (Legacy)
 
 - Get the portable installer for AHK Zip Files from here:
   <https://github.com/TheArkive/ahk-pi>  
@@ -12,10 +12,27 @@
 - Get AHK2EXE Compiler here:  
   https://github.com/AutoHotkey/Ahk2Exe
 
+## Environment Setup (new Workflow as of 2023-08-17)
+
+- Get VSCode Extention: mark-wiemer.vscode-autohotkey-plus-plus
+- Download AHK V1 and V2 Zips from https://www.autohotkey.com/download/
+- Download https://github.com/AutoHotkey/Ahk2Exe/releases/latest
+- I use the base path: C:\Users\xcg5545\.cmder\opt\.autohotkey-manual
+- Extract all three things to this base folder
+- Copy the vscode config below and update the paths according to your base path:
+  ```
+  "ahk++.file.interpreterPathV1": "C:\\Users\\xcg5545\\.cmder\\opt\\.autohotkey-manual\\AutoHotkey_1.1.37.01\\AutoHotkeyU64.exe",
+  "ahk++.file.interpreterPathV2": "C:\\Users\\xcg5545\\.cmder\\opt\\.autohotkey-manual\\AutoHotkey_2.0.5\\AutoHotkey64.exe",
+  "ahk++.file.helpPathV2": "C:\\Users\\xcg5545\\.cmder\\opt\\.autohotkey-manual\\AutoHotkey_2.0.5\\AutoHotkey.chm",
+  "ahk++.file.helpPathV1": "C:\\Users\\xcg5545\\.cmder\\opt\\.autohotkey-manual\\AutoHotkey_1.1.37.01\\AutoHotkey.chm",
+  "ahk++.file.compilerPath": "C:\\Users\\xcg5545\\.cmder\\opt\\.autohotkey-manual\\Ahk2Exe1.1.37.00a\\Ahk2Exe.exe"
+  ```
+-
+
 ## References
 
-AHK 1.1 Documentation:
-<https://www.autohotkey.com/docs/AutoHotkey.htm>
+- AHK 1.1 Docs: <https://www.autohotkey.com/docs/v1/>
+- AHK v2 Docs: <https://www.autohotkey.com/docs/v2/>
 
 ## To Try
 
