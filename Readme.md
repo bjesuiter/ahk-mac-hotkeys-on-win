@@ -12,10 +12,15 @@
 AHK 1.1 Documentation:
 <https://www.autohotkey.com/docs/AutoHotkey.htm>
 
+## To Try
+
+- Newer Option: https://gist.github.com/ascendbruce/677c3169259c975259045f905cd889d6
+- Even newer option: https://github.com/stevenilsen123/mac-keyboard-behavior-in-windows
+
 ---
 
-# Changelog 
+# Changelog
 
-## v1.3 - 2021-04-12 
+## v1.3 - 2021-04-12
 
 First version published on github
