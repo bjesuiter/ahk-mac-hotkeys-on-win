@@ -24,6 +24,34 @@ Ctrl & Tab::AltTab
 ; Quit the active app
 ^q::Send, !{f4}
 
+; Type @ with Strg+l 
+; (when using the right Strg it's like Alt on mac)
+; ^l:: Send ^!{q}
+^l:: Send !^{q}
+
+; Programming Shortcuts
+; Type []
+^5:: Send ^!8 
+^6:: Send ^!9 
+; Type |
+^7:: Send ^!{<} 
+
+; Type {} 
+^8:: Send ^!7
+^9:: Send ^!0
+^0:: Send ^!0 ; only for convenience, using the right STRG key as AltGR Replacement
+
+; Type backslash similar to windows: 
+; Normal Windows: AltGR + ß 
+; Mapped: Strg + ß = Backslash
+; TODO: Fix broken detection for ß key
+;^ß: Send !^{ß}
+
+; Type backslash (\) like on mac (ALT+UMSCHALT+7) (on Windows: WIN+UMSCHALT+7)
+; #+7:: Send {RAlt Down}{RControl Down} ß {RAlt Up}{RControl Up}
+#+7:: Send ^!{ß}
+; Note: Does not work, but deactivates quick opening for taskbar items, which is good for me. 
+
 ; Insertion point movement
 ^Left::
     Suspend, On
