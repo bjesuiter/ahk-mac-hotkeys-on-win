@@ -28,10 +28,15 @@
   "ahk++.file.compilerPath": "C:\\Users\\xcg5545\\.cmder\\opt\\.autohotkey-manual\\Ahk2Exe1.1.37.00a\\Ahk2Exe.exe"
   ```
 
-## How to make new versions of this key mapper 
+## How to make new versions of this key mapper
 
-1. Open the .ahk file 
-2. Use the VSCode Command menu to compile it
+1. Open the mac-hotkeys.ahk file
+2. Use the VSCode Command menu to compile it (either non-Gui or GUI Variant)  
+   Important: use AHK v1.1 NOT 2!
+3. Register the resulting exe in autostart via Win R + regedit  
+   Computer\HKEY_CURRENT_USER\SOFTWARE\Microsoft\Windows\CurrentVersion\Run
+   => Create new Key: "mac-hotkeys" as REG_RZ with the path of the compiled AHK Script:  
+   => "C:\Users\xcg5545\.cmder\dev\ahk-mac-hotkeys-on-win\mac-hotkeys.exe"
 
 ## References
 
