@@ -16,6 +16,7 @@ AHK 1.1 Documentation:
 
 - Newer Option: https://gist.github.com/ascendbruce/677c3169259c975259045f905cd889d6
 - Even newer option: https://github.com/stevenilsen123/mac-keyboard-behavior-in-windows
+  - List of Shortcuts: https://github.com/stevenilsen123/mac-keyboard-behavior-in-windows#cut-copy-paste-and-other-common-shortcuts
 
 ---
 
