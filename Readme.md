@@ -3,9 +3,14 @@
 ## Prerequisites
 
 - Get the portable installer for AHK Zip Files from here:
-  <https://github.com/TheArkive/ahk-pi>
+  <https://github.com/TheArkive/ahk-pi>  
+  CAUTION: Does not work behind a proxy anymore! :(
+
 - Get AHK Zip Files from here:
   <https://www.autohotkey.com/download/>
+
+- Get AHK2EXE Compiler here:  
+  https://github.com/AutoHotkey/Ahk2Exe
 
 ## References
 
